@@ -6,17 +6,17 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'akshitbot4.0@gmail.com'
-global.github = 'https://github.com/akshitbhatia2004/WHATSAPP_AKBOT'
-global.location = 'Sultanpur IN'
-global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '919971606684'
-global.devs = '919971606684';
-global.website = 'https://github.com/akshitbhatia2004/WHATSAPP_AKBOT' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/ghex9sW.jpg'
+global.email = 'keplarbot@gmail.com'
+global.github = 'https://github.com/deepdia/Darkbot'
+global.location = 'India, West Bengal, Kolkata'
+global.gurl = 'https://instagram.com/kumarduttadeep' // add your username
+global.sudo = process.env.SUDO || '916291588399'
+global.devs = '916291588399';
+global.website = 'https://keplarworld.blogspot.com/' //wa.me/+91000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/yfRgEYZ.png'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏_𝐀𝐊𝐁𝐎𝐓',
-  ownername:process.env.OWNER_NAME || 'akshitbhatia2004',
+  botname: process.env.BOT_NAME || '𝐃𝐀𝐑𝐊 𝐃𝐄𝐄𝐏',
+  ownername:process.env.OWNER_NAME || '☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
